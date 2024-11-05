@@ -1,5 +1,5 @@
 from django.db import models
-from access.models import User  # Importación de User desde la app Access
+from access.models import User  
 
 class Challenge(models.Model):
     title = models.TextField()
